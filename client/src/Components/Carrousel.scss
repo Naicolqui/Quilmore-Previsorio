@@ -1,0 +1,12 @@
+.carrousel-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    .single-carrousel{
+        width: 30%;
+        height: 30%;
+        margin: 5%;
+    }
+}

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+$font: 'Montserrat',
+sans-serif;
+
+$primaryColor: #505050;
+$secondaryColor: #F20519;
+$backGroundColor: #F1F1F1;
+$lightestColor: white;
+
+.modal-title{
+    color: $secondaryColor;
+    font-family: $font;
+}
+
+.modal-body{
+    
+    img{
+        width: 50px;
+        margin: 2%;
+    }
+
+    h4{
+        font-family: $font;
+        margin-left: 3%;
+    }
+
+    p{
+        font-family: $font;
+        margin-left: 3%;
+    }
+}
+
+.modal-button{
+    background-color: $secondaryColor;
+    border-color: $secondaryColor;
+}

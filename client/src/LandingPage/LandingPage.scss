@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+$font: 'Montserrat',
+sans-serif;
+
+$primaryColor: #505050;
+$secondaryColor: #F20519;
+$backGroundColor: #F1F1F1;
+$lightestColor: white;
+
+.title {
+    background-color: $primaryColor;
+    border-bottom: solid $secondaryColor 5px;
+
+    h1 {
+        font-size: 3rem;
+        font-family: $font;
+        color: $lightestColor;
+        font-style: bold;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-bottom: 0;
+    }
+}
+
+.single-carrousel {
+    .lote-title {
+        background-color: $primaryColor;
+        border-top: solid $secondaryColor;
+        h3 {
+            color: $lightestColor;
+            font-family: $font;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            margin-bottom: 0;
+        }
+
+    }
+}

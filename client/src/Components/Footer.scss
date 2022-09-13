@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+$font: 'Montserrat',
+sans-serif;
+
+$primaryColor: #505050;
+$secondaryColor: #F20519;
+$backGroundColor: #F1F1F1;
+$lightestColor: white;
+
+
+.contMax{
+    background-color: $primaryColor;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 2%;
+    .contOne{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        width: 30%;
+
+        img{
+            width: 50px;
+            height: 50px;
+            margin-bottom: 3%;
+        }
+    }
+
+    .contTwo{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 30%;
+
+        img{
+            width: 30px;
+            height: 30px;
+            margin-bottom: 2%;
+        }
+
+        h4{
+            font-size: 1.1rem;
+            font-family: $font;
+            color: $backGroundColor;
+        }
+
+        p{
+            font-size: 0.8rem;
+            font-family: $font;
+            color: $backGroundColor;
+        }
+    }
+
+    .contThree{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 30%;
+        color: $backGroundColor;
+
+        h3{
+            font-size: 1.2rem;
+            font-family: $font;
+            color: $backGroundColor;
+        }
+
+        h6{
+            font-size: 1rem;
+            font-family: $font;
+            color: $backGroundColor;
+
+            a {
+                outline: none;
+                text-decoration: none;
+                padding: 2px 1px 0;
+              }
+              
+              a:link {
+                color: $backGroundColor;
+              }
+              
+              a:visited {
+                color: black;
+              }
+              
+              a:focus {
+                border-bottom: 1px solid;
+                background: $secondaryColor;
+                color: $backGroundColor;
+              }
+              
+              a:hover {
+                border-bottom: 1px solid;
+                background: $secondaryColor;
+                color: $backGroundColor;
+                border-radius: 2px;
+              }
+              
+              a:active {
+                background: $primaryColor;
+                color: $backGroundColor;
+              }
+        }
+
+        p{
+            font-size: 0.8rem;
+            font-family: $font;
+            color: $backGroundColor;
+            align-self: flex-end;
+            margin-top: 4%;
+        }
+
+    }
+}
+
+@media (max-width: 500px) {
+
+    .contMax{
+        background-color: $primaryColor;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 2%;
+        .contOne{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 90%;
+    
+            img{
+                width: 50px;
+                height: 50px;
+                margin-bottom: 3%;
+            }
+        }
+    
+        .contTwo{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 90%;
+    
+            img{
+                width: 30px;
+                height: 30px;
+                margin-bottom: 2%;
+            }
+    
+            h4{
+                font-size: 1.1rem;
+                font-family: $font;
+                color: $backGroundColor;
+            }
+    
+            p{
+                font-size: 0.8rem;
+                font-family: $font;
+                color: $backGroundColor;
+            }
+        }
+    
+        .contThree{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 90%;
+            color: $backGroundColor;
+    
+            h3{
+                font-size: 1.2rem;
+                font-family: $font;
+                color: $backGroundColor;
+            }
+    
+            h6{
+                font-size: 1rem;
+                font-family: $font;
+                color: $backGroundColor;
+            }
+    
+            p{
+                font-size: 0.8rem;
+                font-family: $font;
+                color: $backGroundColor;
+                align-self: flex-end;
+                margin-top: 4%;
+            }
+    
+        }
+    }
+  }
